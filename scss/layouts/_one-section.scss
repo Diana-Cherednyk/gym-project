@@ -1,0 +1,22 @@
+.one-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.one-title {
+    margin-bottom: 42px;
+}
+
+.one-section {
+    padding-top: 96px;
+}
+
+.one-text .brand {
+    color: var(--color-brand-dark);
+    font-weight: 600;
+}
+
+.one-text .uppercase {
+    text-transform: uppercase;
+}

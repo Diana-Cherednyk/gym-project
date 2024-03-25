@@ -1,0 +1,16 @@
+.section {
+    padding: 48px 0;
+}
+.section-title {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.section-title.centered {
+    text-align: center;
+}
+
+.section-title .accent {
+    color: var(--color-brand-dark);
+}

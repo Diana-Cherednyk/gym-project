@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <nav class="header-nav">
+            <!-- logo menu-->
+            <a href="/">
+              <img src="./images/logo.svg" alt="Логотип спортивного залу" />
+            </a>
+            <ul class="header-menu">
+              <li><a class="link" href="#one-section">Про нас</a></li>
+              <li><a class="link" href="#two-section">Наші тренери</a></li>
+              <li><a class="link" href="#three-section">Формати</a></li>
+              <li><a class="link" href="#four-section">Контакти</a></li>
+            </ul>
+          </nav>
+          <!--замовити дзвінок-->
+          <button class="button modal-btn-open" type="button">
+            Замовити дзвінок
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-title"><span class="accent">Power</span> Gym</h1>
+        </div>
+      </section>
+
+      <section class="advantages-section">
+        <div class="container">
+          <h2 class="visually-hidden">Our advantages</h2>
+          <ul class="advantages-list">
+            <li class="advantages-item">Доступні за бюджетом формати</li>
+            <li class="advantages-item">Великий попит на ринку</li>
+            <li class="advantages-item">Досвідчена команда</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section one-section" id="one-section">
+        <div class="container">
+          <div class="one-container">
+            <div class="one-content">
+              <h2 class="section-title one-title">Фітнес нового покоління</h2>
+              <p class="one-text">
+                <span class="brand uppercase">power gym</span> – це сучасний фітнес-клуб, який поєднує новітні тренажери, інноваційні програми тренувань та професійний підхід до здоров'я та краси тіла.
+              </p>
+              <p class="one-text">
+                Наші зали обладнані найсучаснішими кардіо- та силовими тренажерами,
+                <span class="brand">забезпечуючи ефективні та безпечні тренування.</span>Ми пропонуємо широкий вибір групових занять під керівництвом висококваліфікованих інструкторів, які підтримують високий темп та мотивують досягати результатів. 
+              </p>
+            </div>
+            <img  src="./images/about-1.jpg" alt="спортзал" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="two-section">
+        <div class="container">
+          <h2 class="section-title centered two-title">
+            Наші <span class="accent">тренери</span>
+          </h2>
+          <ul class="trainer-list">
+            <li class="trainer-items">
+              <article class="trainer-card">
+                <img class="t-photos" src="./images/trainer-2.jpg" alt="жінка-тренер" />
+                <div>
+                  <h3 class="t-title">Настя</h3>
+                  <div class="trainer-text">
+                    <p>Привіт, я Настя!</p>
+                    <p>
+Протягом 10 років я допомагаю людям досягати їхніх фітнес-цілей через ефективні та захопливі тренування.
+                    </p>
+                    <p>Я розробляю індивідуальні програми вправ, що поєднують силові та кардіо навантаження для максимального результату.</p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="trainer-items">
+              <article class="trainer-card">
+                <img class="t-photos" src="./images/trainer-1.jpg" alt="чоловік-тренер" />
+                <div>
+                  <h3 class="t-title">Влад</h3>
+                  <p class="trainer-text">Привіт, я Влад!</p>
+                  <p class="trainer-text">
+                    Фітнес - моя стихія вже 18 років.
+                  </p>
+                  <p class="trainer-text">
+                   Я створю для вас унікальний комплекс вправ, який максимально відповідатиме вашим цілям та уподобанням, допомагаючи розкрити весь потенціал вашого тіла та духу!
+                  </p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="three-section">
+        <div class="container">
+          <h2 class="section-title formats-title centered">Формати</h2>
+          <div class="formats-container">
+            <button class="carousel-button" type="button">
+              <svg class="carousel-arrow" width="16" height="16">
+                <use href="./images/icons.svg#arrow-icon"></use>
+              </svg>
+            </button>
+            <ul class="formats-list">
+              <li class="formats-item">
+                <article class="format-card">
+                  <img class="format-images" src="./images/format-4.jpg">
+                  <h3 class="format-title">Загальний фітнес</h3>
+                  <div class="format-text">
+                    <p>Акцент зроблений на загальному фітнесі та підтримці здоров'я. </p>
+                    <p>
+                      Програми тренувань орієнтовані на розвиток витривалості, силових і гнучких можливостей тіла
+                    </p>
+                    <p>
+                     Програми тренувань часто включають аеробіку, йогу, пілатес, а також різноманітні групові заняття.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="formats-item">
+                <article class="format-card">
+                  <img class="format-images" src="./images/format-3.jpg">
+                  <h3 class="format-title">Функціональний тренажерний зал</h3>
+                  <div class="format-text">
+                    <p>Орієнтований на розвиток функціональної силки та координації рухів. </p>
+                    <p>
+                      Тут використовуються різноманітні функціональні тренажери, такі як TRX стропи, медицинські м'ячі, балансові дошки тощо. 
+                    </p>
+                    <p>
+                      Програми тренувань спрямовані на покращення рухових навичок, збільшення мобільності та зменшення ризику травм.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li class="formats-item">
+                <article class="format-card">
+                  <img class="format-images" src="./images/format-2.jpg">
+                  <h3 class="format-title">Кардіо зона</h3>
+                  <div class="format-text">
+                    <p>Основний акцент робиться на кардіотренуваннях та підвищенні кардіоваскулярної витривалості.</p>
+                    <p>
+                      Тренажерний зал обладнаний біговими доріжками, велотренажерами, еліптичними тренажерами та іншими кардіо-апаратами
+                    </p>
+                    <p>
+                      Можна підібрати програми для зниження ваги, покращення серцево-судинної системи та загального підтримання фізичної форми.
+                    </p>
+                  </div>
+                </article>
+              </li>
+                <li class="formats-item">
+                <article class="format-card">
+                  <img class="format-images" src="./images/format-1.jpg">
+                  <h3 class="format-title">Силовий зал</h3>
+                  <div class="format-text">
+                    <p>Призначений для тих, хто хоче акцентувати увагу на розвитку силових якостей тіла. </p>
+                    <p>
+                      В основі програм тут лежать вправи з використанням важків, штанг, гантелей та інших силових тренажерів. 
+                    </p>
+                    <p>
+                      Також доступні різноманітні тренування з власною вагою тіла.
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+
+            <button class="carousel-button next" type="button">
+              <svg class="carousel-arrow" width="16" height="16">
+                <use href="./images/icons.svg#arrow-icon"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="four-section">
+        <div class="container">
+          <div class="contact-container">
+            <div class="contact-form">
+              <h2 class="section-title contacts-title">Приєднуйся</h2>
+              <p>Заповни форму щоб ми звязалися з тобою</p>
+
+              <form name="modal-form"  method="get" enctype="application/x-www-form-urlencoded" autocomplete="off">
+                <fieldset>
+                  <legend>Контактна інформація</legend>
+
+                  <div class="form-field">
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="user-name"
+                      name="user-name"
+                      required
+                      minlength="2"
+                      maxlength="20"
+                      onblur="this.value = this.value.substr(0,1).toUpperCase() + this.value.slice(1).toLowerCase();"
+                      placeholder="Вікторія"
+                    />
+                    <label class="form-label" for="user-name">Ім'я</label>
+                  </div>
+
+                  <div class="form-field">
+                    <input
+                      class="form-input"
+                      type="tel"
+                      id="user-tel"
+                      name="user-tel"
+                      required
+                      pattern="^\+[0-9]{12}"
+                      placeholder="+380970334554"
+                    />
+                    <label class="form-label" for="user-tel">Телефон</label>
+                  </div>
+
+                  <div class="form-field">
+                    <input
+                      class="form-input"
+                      type="email"
+                      id="user-email"
+                      name="user-email"
+                      required
+                      placeholder="example@gmail.com"
+                    />
+                    <label class="form-label" for="user-email"
+                      >Електронна пошта</label
+                    >
+                  </div>
+                </fieldset>
+
+                <div class="form-field">
+                  <label for="user-comment">Коментар</label>
+                  <textarea
+                    class="form-input"
+                    name="user-comment"
+                    id="user-comment"
+                  ></textarea>
+                </div>
+
+                <select name="" id="">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                </select>
+
+                <button class="form-button button" type="submit">
+                  Замовити дзвінок
+                </button>
+
+                <p>
+                  Натискаючи посилання, я погоджуюся з
+                  <a href="#">політикою конфедиційності</a>
+                </p>
+              </form>
+              <!--form-->
+            </div>
+
+            <iframe
+              class="contact-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1710011600822!5m2!1suk!2sua"
+              width="603"
+              height="595"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="">
+                <img src="./images/logo.svg" alt="Логотип спортивного залу" />
+              </a>
+            </div>
+
+            <ul class="footer-menu">
+              <li><a class="link" href="#one-section">Про нас</a></li>
+              <li><a class="link" href="#two-section">Наші тренери</a></li>
+              <li><a class="link" href="#three-section">Формати</a></li>
+              <li><a class="link" href="#four-section">Контакти</a></li>
+            </ul>
+          </nav>
+
+          <address class="footer-address">
+            <ul class="address-list">
+              <li>
+                <a class="address-link" href="mailto:powergym@gmail.com"
+                  >powergym@gmail.com</a
+                >
+              </li>
+              <li>
+                <a class="address-link" href="tel:+380960000007"
+                  >+ 38 (096) 000 00 07</a
+                >
+              </li>
+              <li>
+                <a
+                  class="address-link"
+                  href="https://maps.app.goo.gl/Ah7zNXYA9aKwRt8r8"
+                  >Україна, м. Київ, вул. Січових Стрільців 54</a
+                >
+              </li>
+              <li>
+                <a href="">
+                  <svg class="address-social" width="32" height="32">
+                    <use href="./images/icons.svg#fb-icon"></use>
+                  </svg>
+                  <!--facebook icon-->
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="address-social" width="32" height="32">
+                    <use href="./images/icons.svg#inst-icon"></use>
+                  </svg>
+                  <!--instagram icon-->
+                </a>
+              </li>
+            </ul>
+            <div class="address-info">
+              <a class="address-link" href="#" target="_blank"
+                >Політика конфедиційності</a
+              >
+              <p class="address-copyright">&copy; 2024 Дані захищені</p>
+            </div>
+          </address>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-btn-close" type="button">Close</button>
+        <h2>Замовити дзвінок</h2>
+        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <form name="contact-form" method="get" enctype="application/x-www-form-urlencoded" autocomplete="off" >
+          <fieldset>
+            <legend>Контактна інформація</legend>
+
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="text"
+                id="user-name"
+                name="user-name"  
+                tabindex="1"
+                minlength="2"
+                maxlength="20"
+                onblur="this.value = this.value.substr(0,1).toUpperCase() + this.value.slice(1).toLowerCase();"
+                placeholder="Вікторія"
+               />
+              <label class="form-label" for="user-name">Ім'я</label>
+            </div>
+
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="tel"
+                id="user-tel"
+                name="user-tel"
+                pattern="^\+[0-9]{12}"
+                placeholder="+380970334554"                
+              />
+              <label class="form-label" for="user-tel">Телефон</label>
+            </div>
+
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                placeholder="example@gmail.com"
+                
+              />
+              <label class="form-label" for="user-email"
+                >Електронна пошта</label
+              >
+            </div>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="user-comment">Коментар</label>
+            <textarea
+              class="form-input"
+              name="user-comment"
+              id="user-comment"
+            ></textarea>
+          </div>
+
+          <select name="multi" id="multi">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+          </select>
+
+          <button class="form-button button" type="submit" >
+            Замовити дзвінок
+          </button>
+          <input
+          class="checkbox-input"
+            type="checkbox"
+            id="terms-conditions"
+            name="terms-conditions"
+          />
+
+
+          <label class="checkbox-label" for="terms-conditions"
+            >Натискаючи посилання, я погоджуюся з
+            <a href="#">політикою конфедиційності</a></a>
+          </label>
+          
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/form-validation.js"></script>
+  </body>
+</html>

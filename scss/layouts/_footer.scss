@@ -1,0 +1,54 @@
+.footer {
+    padding: 32px 0;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav,
+.footer-address {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+}
+
+.footer-logo,
+.footer-menu {
+    flex-grow: 1;
+}
+
+.footer {
+    background-image: url(../images/hero-section-background.jpg);
+    background-position-y: -100px;
+}
+
+
+.address-list,
+.address-info {
+    flex-grow: 1;
+}
+
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.address-social {
+    fill: var(--color-primary-light);
+}
+
+.address-social:hover {
+    fill: var(--color-brand-dark);
+}
+
+.address-link:hover {
+    color: var(--color-brand);
+}
+
+.address-copyright {
+    font-size: 14px;
+}

@@ -1,0 +1,29 @@
+@import "./utils/variables";
+/*Base*/
+@import "./base";
+@import "./utils/utils";
+@import './utils/container';
+
+@import './layouts/section';
+@import "./components/buttons";
+@import "./components/links";
+/*header*/
+@import "./components/header";
+@import "./components/hero-section";
+
+@import './layouts/advantages-section';
+@import './layouts/contact-section';
+@import './layouts/one-section';
+@import './layouts/two-section';
+@import './layouts/formats-section';
+
+@import './components/trainer-card';
+
+@import './components/formats-card';
+@import './components/carousel-button';
+
+
+/*footer*/
+@import './layouts/footer';
+/*modal*/
+@import './layouts/modal';

@@ -1,0 +1,28 @@
+.two-title {
+    position: relative;
+    /* max-width: 520px; */
+    margin: 0 auto 80px;
+}
+
+.two-title::after,
+.two-title::before {
+    position: absolute;
+    bottom: 24px;
+    display: block;
+    width: 352px;
+    border: 2px solid var(--color-brand);
+    content: "";
+}
+
+.two-title::before {
+    left: 0;
+}
+
+.two-title::after {
+    right: 0;
+}
+
+.trainer-list {
+    display: flex;
+    gap: 30px;
+}
